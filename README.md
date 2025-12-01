@@ -38,7 +38,7 @@ git clone git@github.com:OsKaLis/predicting_user_behavior_in_the_marketplace.git
 ```
 ### 2. Переходим в директорию проекта:
 ```
-cd marketplace/
+cd predicting_user_behavior_in_the_marketplace/
 ```
 ### 3. Необходимо проверить установленную версию Python:
 ```
@@ -55,7 +55,7 @@ pip install poetry
 ```
 poetry -V
 ```
-### 6. Запускаем виртуальное окружение из папки "predictions_of_heart_attack_risk":
+### 6. Запускаем виртуальное окружение из папки "predicting_user_behavior_in_the_marketplace":
 ``` 
 poetry shell
 ```
