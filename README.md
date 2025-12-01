@@ -12,11 +12,72 @@
 
 ## Cтек технологий:
 <img src="https://img.shields.io/badge/Scikit--Learn:_-1.6.1-purple">
-<img src="https://img.shields.io/badge/Pandas:_-2.2.3-slategrey">
+<img src="https://img.shields.io/badge/Pandas:_-2.3.3-slategrey">
 <img src="https://img.shields.io/badge/Python:_-3.13.0-greem">
+<img src="https://img.shields.io/badge/catboost:-1.2.8-greem">
+<img src="https://img.shields.io/badge/lightgbm:-4.6.0-greem">
+<img src="https://img.shields.io/badge/Poetry:_-2.2.0-blue">
 
 ## Цель проекта
 >Разработать модель машинного обучения, способную с максимальной точностью предсказывать вероятность того, что конкретный пользователь совершит покупку в течение 90 дней с момента анализа.
 >Ключевая метрика качества - ROC‑AUC.
+
+## Задачи проекта
+### Изучить данные
+### Разработать полезные признаки
+### Создать модель для классификации пользователей
+### Улучшить модель и максимизировать метрику roc_auc
+### Выполнить тестирование
+
+## Как развернуть проект на локальной машине:
+
+
+### 1. Клонируем проект:
+```
+git clone git@github.com:OsKaLis/predicting_user_behavior_in_the_marketplace.git
+```
+### 2. Переходим в директорию проекта:
+```
+cd marketplace/
+```
+### 3. Необходимо проверить установленную версию Python:
+```
+python3 -V
+```
+- Если у вас версия 3.13.*, то можно переходить к шагу 4.
+- Если версия не 3.13.*, то необходимо её установить.
+### 4. Устанвка `poetry`:
+```
+pip install poetry
+```
+- [Не большое руководство по `poetry`](https://habr.com/ru/articles/740376/)
+### 5. Проверка что `poetry` установлен:
+```
+poetry -V
+```
+### 6. Запускаем виртуальное окружение из папки "predictions_of_heart_attack_risk":
+``` 
+poetry shell
+```
+### 7. Устанавливаем установка зависимости для окружения:
+```
+poetry install
+```
+### 8. Проверка установленых зависимостей:
+```
+poetry show
+```
+### 9. Создание ядро окружения с именем [marketplace]:
+```
+poetry run python -m ipykernel install --user --name=marketplace
+```
+### 10. Запуск jupyter где можно выбрать работу: 
+```
+poetry run jupyter notebook
+```
+### 11. Выбрать Select Kernel:
+```
+marketplace
+```
 
 ## Автор: Юшко Ю.Ю.

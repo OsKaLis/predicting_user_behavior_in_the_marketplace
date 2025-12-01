@@ -158,6 +158,10 @@ base/migrations/
 *.cmd
 *.pdf
 *.txt
+*.docx
+*. tsv
+*.json
+*.tfevents
 
 # папка юпитера
 .ipynb_checkpoints/
