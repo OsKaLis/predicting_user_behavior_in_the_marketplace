@@ -166,3 +166,4 @@ base/migrations/
 # папка юпитера
 .ipynb_checkpoints/
 datasets/
+catboost_info/
