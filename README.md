@@ -11,12 +11,17 @@
 - Повысить конверсию за счёт фокусировки на «горячей» аудитории.
 
 ## Cтек технологий:
-<img src="https://img.shields.io/badge/Scikit--Learn:_-1.6.1-purple">
-<img src="https://img.shields.io/badge/Pandas:_-2.3.3-slategrey">
-<img src="https://img.shields.io/badge/Python:_-3.13.0-greem">
-<img src="https://img.shields.io/badge/catboost:-1.2.8-greem">
-<img src="https://img.shields.io/badge/lightgbm:-4.6.0-greem">
-<img src="https://img.shields.io/badge/Poetry:_-2.2.0-blue">
+ <img src="https://img.shields.io/badge/Scikit--Learn:_-1.6.1-blue"> <img src="https://img.shields.io/badge/Pandas:_-2.3.3-slategrey">
+ <img src="https://img.shields.io/badge/Python:_-3.13.0-greem">
+ <img src="https://img.shields.io/badge/catboost:-1.2.8-blue">
+ <img src="https://img.shields.io/badge/lightgbm:-4.6.0-blue">
+ <img src="https://img.shields.io/badge/Poetry:_-2.2.0-blue">
+ <img src="https://img.shields.io/badge/matplotlib:_-3.10.7-blue">
+ <img src="https://img.shields.io/badge/seaborn:_-0.13.2-blue">
+ <img src="https://img.shields.io/badge/phik:_-0.12.4-blue">
+ <img src="https://img.shields.io/badge/shap:_-0.50.0-blue">
+ <img src="https://img.shields.io/badge/wordcloud:_-1.9.4-blue">
+ <img src="https://img.shields.io/badge/pillow:_-12.0.0-blue">
 
 ## Цель проекта
 >Разработать модель машинного обучения, способную с максимальной точностью предсказывать вероятность того, что конкретный пользователь совершит покупку в течение 90 дней с момента анализа.
@@ -78,6 +83,10 @@ poetry run jupyter notebook
 ### 11. Выбрать Select Kernel:
 ```
 marketplace
+```
+### 12. Выбираем фаил для работы
+```
+Через /File >>> m4s22_marketplace.ipynb
 ```
 
 ## Автор: Юшко Ю.Ю.
